@@ -13,13 +13,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
   path_provider: ^2.0.11
-  path_provider_windows: ^2.0.11
-  path_provider_linux: ^2.0.11
   dio: ^4.0.6
-  web: ^0.5.1
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -34,12 +29,3 @@ flutter:
         pluginClass: FileSaverPlugin
       ios:
         pluginClass: FileSaverPlugin
-      linux:
-        pluginClass: FileSaverPlugin
-      macos:
-        pluginClass: FileSaverPlugin
-      windows:
-        pluginClass: FileSaverPlugin
-      web:
-        pluginClass: FileSaverWeb
-        fileName: file_saver_web.dart
